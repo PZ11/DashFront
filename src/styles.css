@@ -7,8 +7,10 @@ html {
 }
 
 body {
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: #1C2228;
     color: #f7fff7;
+    height: 100%;
 }
 
 a{
@@ -26,3 +28,30 @@ a:hover{
 .section-container {
     padding: 30px;
 }
+
+.card-theme {
+    background-color: #191F26;
+    border: none;
+    border-radius: 2px;
+}
+
+.card-heading-theme {
+    color: #eee;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding:12px;
+}
+
+.card-body-theme{
+    background-color: #494f56;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container {
+    padding: 30px;
+}
+
