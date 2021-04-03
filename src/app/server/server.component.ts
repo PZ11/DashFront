@@ -10,7 +10,7 @@ export class ServerComponent implements OnInit {
   constructor() { }
   
   color: string;
-  bottonText: string;
+  buttonText: string;
 
   @Input() serverInput : Server;
 
@@ -22,11 +22,11 @@ export class ServerComponent implements OnInit {
     if(isOnline) {
       this.serverInput.isOnline = true;
       this.color = '#66BB6A',
-      this.bottonText = 'Shut Down';
+      this.buttonText = 'Shut Down';
     } else {
       this.serverInput.isOnline = false;
       this.color = '#FF6B6B',
-      this.bottonText = 'Start';
+      this.buttonText = 'Start';
     }
   }
 
